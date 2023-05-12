@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* App.js */
+
+.container {
+  max-width: 920px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* Calculator.js */
+
+.cal-con {
+  max-width: 450px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  margin: 150px auto;
+}
+
+#formula {
+  grid-column: span 4;
+  background-color: gray;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  color: #fff;
+}
+
+#formula::placeholder {
+  color: #fff;
+  text-align: right;
+}
+
+#zero {
+  grid-column: span 2;
+}
+
+.btn {
+  height: 9vh;
+  margin-top: -1px;
+  margin-right: -1px;
+  border: 1px solid lightgrey;
+}
+
+.btn:hover {
+  font-size: 1rem;
+}
+
+.btn:active {
+  background-color: darkgray;
+}
+
+.math-opr {
+  background-color: #ff9248;
+}

@@ -7,6 +7,9 @@
 /* App.js */
 
 .container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
   max-width: 920px;
   height: 100%;
   margin: 0 auto;
@@ -15,11 +18,11 @@
 /* Calculator.js */
 
 .cal-con {
-  max-width: 450px;
+  min-width: 450px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  margin: 150px auto;
+  margin: 150px 0;
 }
 
 #formula {
@@ -56,4 +59,37 @@
 
 .math-opr {
   background-color: #ff9248;
+}
+
+/* GetQuotes.js */
+
+.quote-con {
+  padding: 2rem;
+  box-shadow: 5px 5px 20px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 920px) {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 768px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 2.5rem auto;
+  }
+
+  .cal-con {
+    margin: 30px 0;
+  }
 }

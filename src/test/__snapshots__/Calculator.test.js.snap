@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+<div>
+  <div
+    class="main-container"
+  >
+    <div
+      class="nav-bar"
+    >
+      <h1>
+        Math-Magicians
+      </h1>
+      <div
+        class="links"
+      >
+        <li
+          class="break"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="break"
+        >
+          <a
+            href="/Calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/GetQuotes"
+          >
+            Quote
+          </a>
+        </li>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="home-container"
+      >
+        <h2>
+          Welcome to our page!
+        </h2>
+        <p>
+          This web calculator app is a web-based application that allows users to perform mathematical calculations. It is a simple and easy-to-use tool that can be used for a variety of tasks, such as basic arithmetic, scientific calculations, and financial analysis.
+        </p>
+        <p>
+          Web calculator apps are typically accessed through a web browser and do not require any software to be installed on the user computer. This makes them a convenient and accessible option for users who need to perform calculations on a variety of devices, such as laptops, tablets, and smartphones.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom';
-import { getByDisplayValue, render } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import Calculator from '../components/Calculator';
 
 describe('test Calculator', () => {
